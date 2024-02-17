@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Add Icons fontawesome -->
+  <script src="https://kit.fontawesome.com/37f6cd2a77.js" crossorigin="anonymous"></script>
+  <!-- Add Icons bootstrap -->
+  <link rel="stylesheet" href="plantillas/css/bootstrap.min.css"/>
+  <!---Estilos CSS-->
+  <link rel="stylesheet" href="plantillas/css/style.css" />
+  <title>TestPoint y ISP</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <nav>LabPhone</nav>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>  
+          <li class="nav-item">
+            <a class="nav-link link" href="testpoint.html">TestPoint y ISP</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link link" href="#">Contacto</a>
+        </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Help
+            </a>
+            <ul class="dropdown-menu">
+              
+              <li><a class="dropdown-item" href="#">Ic Finder</a></li>
+              <li><a class="dropdown-item" href="#">FRP</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search" />
+      <button class="btn btn-outline-success" type="submit">Buscar</button>
+    </form>
+  </nav>
+
+
+  <section class="img__content">
+    <div class="img__section" >
+      <div class="input-group mb-3">
+        <label class="input-group-text" for="inputGroupSelect02">Marca</label>
+        <select class="form-select" id="marca">
+          <option selected>Choose...</option>
+        </select>
+      </div>
+      <div class="input-group mb-3">
+        <label class="input-group-text" for="inputGroupSelect02">Tipo de trabajo</label>
+        <select class="form-select" name="tipo_trabajo" id="tipo_trabajo"></select>
+      </div>
+      <div class="input-group mb-3">
+        <label class="input-group-text" for="inputGroupSelect02">Modelo</label>
+        <select class="form-select" name="modelo" id="modelo"></select>
+      </div>
+        <div class="imagen">
+            <img src="" class="img-fluid" id="selectedImage">
+        </div>
+    </div>
+   </section>
+   
+   <footer>
+    <div class="footer__brnad"><a href="index.html">LabPhone</a></div>
+    <ul class="footer__brnad_iconos">
+      <li>
+        <a href="#"><i class="fa-brands fa-facebook" style="color: #70a5ff"></i></a>
+      </li>
+
+      <li>
+        <a href="#"><i class="fa-brands fa-square-instagram" style="color: #bf2241"></i></a>
+      </li>
+
+      <li>
+        <a href="#"><i class="fa-brands fa-youtube" style="color: #ff0026"></i></a>
+      </li>
+
+      <li>
+        <a href="#"><i class="fa-brands fa-whatsapp" style="color: #47ff4a"></i></a>
+      </li>
+    </ul>
+  </footer>
+  <script src="plantillas/js/bootstrap.bundle.min.js"></script>
+   <script src="plantillas/js/script.js"></script>
+   
+</body>
+
+</html>
